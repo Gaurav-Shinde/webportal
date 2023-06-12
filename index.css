@@ -1,0 +1,110 @@
+
+.container{
+    /* border-width: 2px;
+    border-style: dotted;
+    border-color: red; */
+
+    position: relative;
+
+    padding: 20px;
+    margin: 5px;
+}
+
+.card{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+
+    /* position: absolute;
+    left: 10px; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.heading-box{
+    margin: 10px;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size-adjust: unset;
+}
+
+.input-field-container{
+    margin: 5px;
+    padding: 5px;
+}
+
+label{
+    display: block;
+    transition: font-size 0.2s ease-in-out; 
+    /* 
+    No way to enlarge on input focus, use jquery
+    transition: font-size 0.2s ease-in-out; 
+    */
+}
+
+input[type='text']{
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+    padding-inline: 5px;
+
+    height: 20px;
+    width: 200px;
+    /* 
+    No Effect
+    overflow-x: hidden;
+    overflow-y:hidden; 
+    */
+}
+
+.label-enlarge{
+    color: red;
+    font-size: large;
+}
+
+
+  
+
+.button-container{
+    margin: 5px;
+    padding: 5px;
+}
+
+button[type='submit']{
+    background-color: orange;
+    color: white;
+
+    border-radius: 5px;
+
+    padding-inline: 10px;
+    padding-block: 5px;
+
+    font-family: 'Gill Sans';
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+button:active{
+    background-color: rgb(112, 73, 2);
+}
+.disabled-button{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.forgot-password-link{
+
+}
+
+.alternate-login{
+
+}
+
